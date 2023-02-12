@@ -27,7 +27,7 @@ const Header = () => {
             <Link to="/plan-my-kitchen">Plan my Kitchen</Link>
           </div>
           <div>
-            <Link to="/home">
+            <Link to="/">
               <img src={logo} alt="MK" />
             </Link>
           </div>
@@ -49,7 +49,7 @@ const Header = () => {
           }  md:hidden p-8`}
         >
           <div>
-            <Link to="/home">
+            <Link to="/">
               <img src={logo} alt="MK" />
             </Link>
           </div>
@@ -65,7 +65,7 @@ const Header = () => {
         >
           <div className="flex justify-between items-center">
             <div>
-              <Link to="/home">
+              <Link to="/">
                 <img src={logo} alt="MK" />
               </Link>
             </div>
