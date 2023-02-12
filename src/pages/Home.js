@@ -18,7 +18,7 @@ const Home = () => {
         <div className="h-full w-full md:w-1/2">
           <img className="h-full w-full" src={bitmap2} alt="bitmap2" />
         </div>
-        <div className="h-full w-full md:w-1/2 p-4 md:px-16 flex flex-col items-start justify-center space-y-2">
+        <div className="h-full w-full md:w-1/2 p-4 md:px-16 mb-32 flex flex-col items-start justify-center space-y-2">
           <p className="uppercase text-[#D4B254] text-xs tracking-[3px]">
             Quality Craftmanship from build to delivery
           </p>
@@ -37,7 +37,7 @@ const Home = () => {
         </div>
       </div>
       <div className="bg-[#EEEEEE]">
-        <div className="px-4 md:container md:px-[230px] my-8 py-16 md:py-24 text-center">
+        <div className="px-4 md:container md:px-[230px] py-16 md:py-24 text-center">
           <p className="uppercase text-[#D4B254] text-xs tracking-[3px]">
             What Our Customers Say{" "}
           </p>
