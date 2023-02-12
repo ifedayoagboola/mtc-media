@@ -9,9 +9,22 @@ const Footer = () => {
   return (
     <div className="bg-[#111111]">
       <div className="flex items-center justify-center container py-4">
-        <hr />
+        <div
+          style={{
+            height: "0.5px",
+            width: "100%",
+            backgroundColor: "#555",
+          }}
+        ></div>
         <img src={logo} alt="bitshub-img" className="w-[32]" />
-        <hr />
+        <div
+          style={{
+            height: "0.5px",
+            width: "100%",
+            backgroundColor: "#555",
+            zIndex: "1000",
+          }}
+        ></div>
       </div>
       <div className="container pt-16 pb-12">
         <div className="container grid md:grid-cols-2 break-words">
@@ -131,6 +144,13 @@ const Footer = () => {
             Responsive website design, Development & Hosting by mtc.
           </p>
         </div>
+        <div
+          style={{
+            height: "0.5px",
+            width: "100%",
+            backgroundColor: "#555",
+          }}
+        ></div>
       </div>
     </div>
   );

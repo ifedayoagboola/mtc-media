@@ -32,7 +32,7 @@ const Slider = () => {
         <div className="carousel-item active relative float-left w-full">
           <img src={bitmap} className="block w-full h-[100vh]" alt="..." />
           <div className="carousel-caption absolute top-[50%] text-center">
-            <p className="text-xs uppercase font-thin">
+            <p className="text-xs uppercase font-thin tracking-[3px]">
               Design and order your new kitchen online today
             </p>
             <p className="text-[1.5rem] md:text-[3rem] font-medium leading-none">
